@@ -12,10 +12,10 @@ language: generic
 
 deploy:
   provider: elasticbeanstalk
-  region: "eu-central-1"
+  region: "us-east-1"
   app: "docker"
   env: "Docker-env"
-  bucket_name:  "elasticbeanstalk-eu-central-1-837002711358"
+  bucket_name:  "elasticbeanstalk-us-east-1-837002711358"
   bucket_path: "docker"
   on:
     branch: master
